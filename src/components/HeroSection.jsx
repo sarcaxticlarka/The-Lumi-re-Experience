@@ -296,7 +296,7 @@ export default function HeroSection() {
                 </div>
             </header>
 
-            <main className="px-6 md:px-12 pt-16 pb-32 z-10">
+            <main className="px-6 md:px-12 pt-4 pb-32 z-10">
                 <div className="mb-8">
                     <p className="uppercase tracking-wider text-2xl font-light mb-1">
                         REDEFINING <span className="inline-block w-12 h-px bg-white mx-4"></span> CELEBRATION

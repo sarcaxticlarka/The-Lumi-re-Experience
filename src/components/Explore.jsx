@@ -215,11 +215,11 @@ export default function RajaAmpatSection() {
         <div className="flex flex-col md:flex-row justify-between items-start gap-6 mb-12">
           <div className="md:w-1/2 pl-24">
             <p ref={subheadingRef} className="text-2xl text-gray-500">The Lumière Experience</p>
-            <h1 ref={headingRef} className="text-6xl font-bold text-gray-900 leading-tight mt-2">
+            <h1 ref={headingRef} className="text-3xl font-bold text-gray-900 leading-tight mt-2">
               Where Every Event Becomes a Story
             </h1>
           </div>
-          <p ref={descriptionRef} className="md:w-1/3 text-2xl text-gray-600 leading-relaxed">
+          <p ref={descriptionRef} className="md:w-1/3 text-sm text-gray-600 leading-relaxed">
             Step into a digital world where timelines breathe, themes dance, and guests connect. From micro-moments to major milestones — design it, live it, and relive it.
           </p>
         </div>
