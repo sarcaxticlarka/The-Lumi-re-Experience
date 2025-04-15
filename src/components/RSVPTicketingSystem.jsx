@@ -138,7 +138,7 @@ export default function RSVPTicketingSystem() {
     };
     return (
         <div className="bg-gray-100 min-h-screen p-6 relative">
-            <h1 className='text-3xl pl-16'>Your Dashboard</h1>
+            <h1 className='text-3xl pl-16 pb-8'>Your Dashboard</h1>
              <img
                 className='absolute w-[12vw] right-0 bottom-0'
                 src="https://images.pexels.com/photos/1058771/pexels-photo-1058771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
