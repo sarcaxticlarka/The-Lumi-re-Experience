@@ -328,7 +328,7 @@ export default function HeroSection() {
                                     Scroll to explore
                                 </span>
                             </div>
-                            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
+                            <div className="absolute bottom-4 py-2 left-1/2 transform -translate-x-1/2 z-10">
                                 <svg width="26" height="26" viewBox="0 0 16 16" className="text-[#FF706A] group-hover:text-white transition-colors duration-300">
                                     <path d="M8 12L2 6L3.4 4.6L8 9.2L12.6 4.6L14 6L8 12Z" fill="currentColor" />
                                 </svg>
@@ -343,7 +343,7 @@ export default function HeroSection() {
                 <button className="text-[#FF706A] uppercase text-xl tracking-wider">
                     Create Your Own &gt;
                 </button>
-                <button className="relative overflow-hidden border border-[#FF706A] px-6 py-4 rounded-full text-xl uppercase tracking-wider text-white z-10 group">
+                <button className="relative overflow-hidden border border-[#FF706A] px-6 py-2 rounded-full text-sm uppercase tracking-wider text-white z-10 group">
                     <span className="relative z-10">Explore Events</span>
                     <span className="absolute inset-0 rounded-full bg-[#FF706A] scale-0 group-hover:scale-100 transition-transform duration-500 ease-out origin-center z-0"></span>
                 </button>

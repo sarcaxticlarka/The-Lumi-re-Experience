@@ -59,7 +59,7 @@ const AboutSection = () => {
             justify-content: center;
             position: relative;
             white-space: nowrap;
-            font-size: 7vw;
+            font-size: 6vw;
             letter-spacing: -0.01em;
             line-height: 100%;
             margin: 0;
@@ -81,7 +81,7 @@ const AboutSection = () => {
             position: absolute;
             width: 100%;
             height: 100%;
-            font-size: 7.5vw;
+            font-size: 6.5vw;
             background-color: #FF706A;
             color: #0d0d0d;
             clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
