@@ -214,7 +214,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Moon } from 'lucide-react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import bgVedio from '../assets/bgvedio.mp4';
+// import bgVedio from '../assets/bgvedio.mp4';
 import mhome from '../assets/mhome.png';
 import mabout from '../assets/about.png';
 import experinece from '../assets/experince.png';
@@ -260,14 +260,14 @@ export default function HeroSection() {
     return (
         <div ref={containerRef} className="relative bg-black h-screen w-full p-8 text-white overflow-hidden">
             {/* Background Video */}
-            <video
+            {/* <video
                 autoPlay
                 loop
                 muted
                 className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-0"
             >
                 <source src={bgVedio} type="video/mp4" />
-            </video>
+            </video> */}
 
             {/* Header */}
             <header className="flex justify-between items-center px-6 py-4 md:px-12 z-10">
