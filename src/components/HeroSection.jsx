@@ -304,10 +304,10 @@ export default function HeroSection() {
                 </div>
 
              
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+                <div className="absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
                     <h1
                         ref={headlineRef}
-                        className="text-6xl flex flex-col justify-center items-center md:text-8xl font-serif leading-tight text-center"
+                        className="text-4xl flex flex-col justify-center items-center md:text-8xl font-serif leading-tight text-center"
                     >
                         <span className="text-[#FF706A] block font-['Moranga'] font-[700]">
                             Plan with purpose.
