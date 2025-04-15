@@ -146,7 +146,7 @@ export default function RSVPTicketingSystem() {
                 style={{ clipPath: 'polygon(30% 99%, 100% 0, 0 0, 72% 100%)' }}
             />
             <h1 className='text-5xl mb-4'>Your Dashboard</h1>
-            <div className="mx-auto max-w-full   bg-green-50 rounded-xl shadow-sm overflow-hidden">
+            <div className="mx-auto max-w-full   bg-green-50 rounded-xl shadow-sm ">
                 {/* Header Navigation */}
                 <div className="flex items-center justify-between px-4 py-4 bg-white border-b">
                     <div className="flex items-center space-x-2">
@@ -208,7 +208,7 @@ export default function RSVPTicketingSystem() {
                         <div className="flex justify-between items-center mb-6">
                             <div className="flex items-center space-x-2">
                                 <ChevronLeft size={20} className="text-gray-800" />
-                                <h1 className="text-xl font-bold text-gray-800">My Events</h1>
+                                <h1 className="text-sm font-bold text-gray-800">My Events</h1>
                             </div>
                             <div className="flex items-center space-x-2">
                                 <span className="text-gray-600">April, 2025</span>
@@ -220,8 +220,8 @@ export default function RSVPTicketingSystem() {
 
                         {/* Upcoming Events Section */}
                         <div className="mb-8">
-                            <h2 className="text-5xl font-bold text-gray-800">Upcoming Events</h2>
-                            <div className="h-1 w-32 bg-purple-700 rounded-full mb-12"></div>
+                            <h2 className="text-2xl font-bold text-gray-800">Upcoming Events</h2>
+                            <div className="h-1 w-32 bg-purple-700 rounded-full mb-5"></div>
 
                             <div className="grid grid-cols-1 text-2xl md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
                                 {events.map(event => (
@@ -245,7 +245,7 @@ export default function RSVPTicketingSystem() {
 
                         {/* Ticket Management Section */}
                         <div>
-                            <h2 className="text-4xl font-bold text-gray-800">Ticket Management</h2>
+                            <h2 className="text-2xl font-bold text-gray-800">Ticket Management</h2>
                             <div className="h-1 w-40 bg-purple-700 rounded-full mb-4"></div>
 
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
@@ -253,7 +253,7 @@ export default function RSVPTicketingSystem() {
                                 <div className="md:col-span-2 py-12 bg-white rounded-lg shadow-sm p-4">
                                     <div className="mb-4 ">
                                         <div className="flex  justify-between items-center">
-                                            <h3 className="font-bold text-2xl text-gray-800">{selectedEvent.title}</h3>
+                                            <h3 className="font-bold text-sm text-gray-800">{selectedEvent.title}</h3>
                                             <div className="flex space-x-4">
                                                 <span className="text-gray-600">{selectedEvent.date}</span>
                                                 <span className="text-gray-600">{selectedEvent.time}</span>
@@ -262,7 +262,7 @@ export default function RSVPTicketingSystem() {
                                         <div className="border-t border-gray-200 my-3"></div>
                                         <div className="flex justify-between">
                                             <div>
-                                                <span className="text-gray-600 text-md">Ticket Sales:</span>
+                                                <span className="text-gray-600 text-sm">Ticket Sales:</span>
                                                 <span className="ml-2 text-sm">{selectedEvent.ticketsSold} / {selectedEvent.maxTickets}</span>
                                             </div>
                                             <div>
@@ -274,7 +274,7 @@ export default function RSVPTicketingSystem() {
 
                                     <div className="flex flex-wrap gap-2">
                                         <button
-                                            className="px-6  py-4 bg-purple-700 text-white text-sm rounded-full"
+                                            className="px-6  py-2 bg-purple-700 text-white text-sm rounded-full"
                                             onClick={() => setShowTicketForm(true)}>
                                             Manage Tickets
                                         </button>

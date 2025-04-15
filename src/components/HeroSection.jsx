@@ -297,7 +297,7 @@ export default function HeroSection() {
             </header>
 
             <main className="px-6 md:px-12 pt-16 pb-32 z-10">
-                <div className="mb-16">
+                <div className="mb-8">
                     <p className="uppercase tracking-wider text-2xl font-light mb-1">
                         REDEFINING <span className="inline-block w-12 h-px bg-white mx-4"></span> CELEBRATION
                     </p>
@@ -307,7 +307,7 @@ export default function HeroSection() {
                 <div className="absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
                     <h1
                         ref={headlineRef}
-                        className="text-4xl flex flex-col justify-center items-center md:text-8xl font-serif leading-tight text-center"
+                        className="text-2xl flex flex-col justify-center items-center md:text-8xl font-serif leading-tight text-center"
                     >
                         <span className="text-[#FF706A] block font-['Moranga'] font-[700]">
                             Plan with purpose.
