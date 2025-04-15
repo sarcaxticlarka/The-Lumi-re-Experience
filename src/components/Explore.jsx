@@ -200,7 +200,7 @@ export default function RajaAmpatSection() {
   return (
     <div 
       ref={sectionRef}
-      className="h-screen relative bg-gray-100 py-32 px-46 flex flex-col justify-center items-center"
+      className="h-screen relative bg-gray-100 py-32 px-24 flex flex-col justify-center items-center"
     >
       <img
         ref={imageRef}
