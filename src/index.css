@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+@import "tailwindcss";
+@font-face {
+  font-family: "Moranga";
+  src: url("../src/assets/moranga.ttf") format("truetype");
+  font-weight: bold;
+}
+ 
+ 
