@@ -4,8 +4,7 @@ const HeartCursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    // Hide default cursor
+  useEffect(() => { 
     document.body.style.cursor = 'none';
 
     const handleMouseMove = (e) => {
@@ -17,11 +16,11 @@ const HeartCursor = () => {
       setIsVisible(false);
     };
 
-    // Add event listeners
+ 
     document.addEventListener('mousemove', handleMouseMove);
     document.addEventListener('mouseleave', handleMouseLeave);
 
-    // Clean up
+   
     return () => {
       document.body.style.cursor = 'default';
       document.removeEventListener('mousemove', handleMouseMove);
