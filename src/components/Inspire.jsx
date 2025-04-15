@@ -88,7 +88,7 @@ const Inspire = () => {
       <p className='inspire-text text-[#f5f5dc] text-center text-4xl pt-20 z-10 relative'>
         Unleash Your Event's Potential
       </p>
-      <h1 className='inspire-text text-[#f5f5dc] relative z-10 text-[6vw] leading-[8vw] text-center font-[Moranga] pt-20'>
+      <h1 className='inspire-text text-[#f5f5dc] relative z-10 text-[7vw] leading-[7vw] text-center font-[Moranga] pt-20'>
         Design. Create. Celebrate. Your dream event, brought to life
       </h1>
     </div>
