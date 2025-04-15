@@ -48,10 +48,10 @@ const Experies = () => {
       ref={containerRef}
       className="bg-[#2F4231] w-full text-white px-24 pt-32"
     >
-      <p className="text-5xl pb-12 text-[#f5f5dc] expertise-title">
+      <p className="text-3xl pb-12 text-[#f5f5dc] expertise-title">
         Our Expertise
       </p>
-      <h2 className="font-[Moranga] text-9xl w-[70%] text-[#f5f5dc] expertise-title">
+      <h2 className="font-[Moranga] text-5xl w-[80%] text-[#f5f5dc] expertise-title">
         Moments Fused with Elegance & Charm
       </h2>
     </div>
