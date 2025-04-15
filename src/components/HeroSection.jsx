@@ -258,7 +258,7 @@ export default function HeroSection() {
     }, []);
 
     return (
-        <div ref={containerRef} className="relative bg-black h-screen w-full p-8 text-white overflow-hidden">
+        <div ref={containerRef} className="relative bg-black h-screen w-full p-2 text-white overflow-hidden">
             {/* Background Video */}
             {/* <video
                 autoPlay
@@ -320,8 +320,8 @@ export default function HeroSection() {
 
               
                 <div className="relative mt-64 mb-12">
-                    <div className="absolute left-0 w-40 h-32">
-                        <div className="group relative w-32 h-32 top-10 rounded-full border border-[#FF706A] text-[#FF706A] text-xs flex items-center justify-center overflow-hidden cursor-pointer transition-colors duration-300">
+                    <div className="absolute -left-4 w-40 h-32">
+                        <div className="group relative w-24 h-24 top-10 rounded-full border border-[#FF706A] text-[#FF706A] text-xs flex items-center justify-center overflow-hidden cursor-pointer transition-colors duration-300">
                             <span className="absolute inset-0 bg-[#FF706A] scale-0 rounded-full origin-center transition-transform duration-500 ease-out group-hover:scale-100 z-0"></span>
                             <div className="absolute inset-0 flex items-center justify-center z-10 text-center">
                                 <span className="uppercase text-[0.6vw] tracking-widest group-hover:text-white transition-colors duration-300">
